@@ -24,15 +24,11 @@
   },
   "dependencies": {
     "@opam/dune": ">=2.6",
-    "@reason-native/console": "*",
-    "@reason-native/pastel": "*",
     "@esy-ocaml/reason": ">= 3.6.0 < 4.0.0",
+    "@opam/argon2": "osener/ocaml-argon2:argon2.opam#ee70501",
     "ocaml": "~4.10.0"
   },
   "devDependencies": {
-    "@opam/merlin": "*",
-    "@reason-native/rely": "*",
-    "refmterr": "*",
-    "@opam/odoc": "*"
+    "refmterr": "*"
   }
 }
